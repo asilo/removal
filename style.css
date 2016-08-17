@@ -1,0 +1,104 @@
+body {
+    margin: 0px;
+    padding: 0px;
+   
+    background-image: url('img/logo.jpg');
+  
+    color: #000305;
+    font-size:87.5%;
+    font-family: Arial, 'Lucida Sans Unicode';
+    text-align:left;
+}
+
+#header {
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: lightpink;
+    margin-left:0;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+    letter-spacing: -2px;
+    width: 100%;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: hotpink;
+}
+
+a:hover, a:active {
+    background-color: deeppink;
+    color: #ffffff;
+}
+
+.body {
+    margin: 0 auto;
+    width: 70%;
+    clear:both;
+}
+
+.mainHeader img{
+    width:100%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+.mainHeader nav{
+    background-color: indianred;
+    height: 130px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 0;
+    margin-top:0;
+}
+
+.mainHeader nav ul{
+    list-style: none;
+    margin: 0 auto;
+}
+.mainHeader nav a:link, .mainHeader nav a:visited{
+    color:#fff;
+    display:inline-block;
+    padding: 10px 25px;
+    height: 20px;
+
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav.active a.visited{
+    background-color: deeppink;
+    text-shadow:none;
+}
+.bottomcontent {
+    background-color: indianred;
+    border-radius:6px;
+    -moz-border-radius:6px;
+    -webkit-border-radius: 6px;
+    padding: 3% 5%;
+    margin-top: 2%;
+    float: right;
+}    
+
+
+
+
+
+
+
+
+
